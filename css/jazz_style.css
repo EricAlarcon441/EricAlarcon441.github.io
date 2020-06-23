@@ -1,0 +1,136 @@
+/*Varibales*/
+
+:root {
+    --navbar: #1e5e60;
+    --color_letra: #f2f2f2;
+    --color_letra_inico: ;
+    --background_generos: #84bfa4;
+    --color_letra_generos: #002f37;
+}
+
+
+/*Genero*/
+
+#jazz {
+    background-color: var(--color_letra_generos);
+}
+
+#jazz p,
+h1 {
+    color: var(--color_letra);
+    margin: 0;
+}
+
+
+/*Body*/
+
+body {
+    font-family: 'Chelsea Market', cursive;
+}
+
+div {
+    position: relative;
+}
+
+
+/*inicio*/
+
+#inicio a {
+    color: var(--navbar);
+}
+
+
+/* Regilla generos  */
+
+#generos h1,
+h2,
+h3,
+h4,
+a {
+    color: var(--color_letra_generos);
+}
+
+.caset {
+    background-image: url("../img/cas_genero.png");
+    background-repeat: no-repeat;
+    background-size: 260px 230px;
+    background-color: transparent;
+    background-position: center;
+}
+
+
+/*imagen estatica*/
+
+header {
+    position: relative;
+    background-color: black;
+    height: 15vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+header h1,
+h2 {
+    color: var(--color_letra);
+}
+
+header img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.65;
+    z-index: 1;
+}
+
+
+/*secciones*/
+
+.container-fluid {
+    height: 100vh;
+    width: 100%;
+}
+
+
+/* Navbar*/
+
+.navbar {
+    background-color: var(--navbar);
+    opacity: 1;
+    height: 9vh;
+}
+
+.nav-link {
+    color: var(--color_letra);
+}
+
+.nav-link:hover {
+    color: var(--color_letra);
+}
+
+ion-icon {
+    color: var(--color_letra);
+}

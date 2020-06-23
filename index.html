@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+
+    <!-- Scroll -->
+    <script src="js/smooth-scroll.min.js"></script>
+    <!-- Animacion scroll-->
+    <script>
+        smoothScroll.init({
+            selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+            selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+            speed: 1000, // Integer. How fast to complete the scroll in milliseconds
+            easing: 'easeInOutCubic', // Easing pattern to use
+            offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+            callback: function(anchor, toggle) {} // Function to run after scrolling
+        });
+    </script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-sm">
+
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav m-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a data-scroll href="#inicio" class="nav-link d-inline">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a data-scroll href="#generos" class="nav-link d-inline">Generos</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <header id="inicio">
+        <div class="overlay"></div>
+        <img src="img/fondo3.jpg" alt="">
+        <div class="container h-100 ">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <h1 class="display-3 m-5">Música Ecuatoriana</h1>
+                    <h2 class="m-5">Bienvenido, en Ecuador se crean diversos generos de música, conocelos:</h2>
+                    <button type="button" class="btn-lg btn-light m-5"><a data-scroll href="#generos" class="nav-link d-inline">Aqui!</a></button>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid" id="generos">
+        <div class="container">
+            <div class="text-center">
+                <h1>Generos</h1>
+
+            </div>
+            <div class="row justify-content-right">
+
+
+
+                <a class="col-lg-3 col-md-6 col-sm-6 p-5 caset stretched-link" href="sites/Jazz.html">
+                    <h4>Jazz </h4>
+                </a>
+
+
+
+
+                <a class="col-lg-3 col-md-6 col-sm-6 caset p-5 stretched-link" href="#">
+
+                    <h4>Indie-pop </h4>
+
+                </a>
+                <a class="col-lg-3 col-md-6 col-sm-6 caset p-5 stretched-link" href="#">
+
+                    <h4>Cumbia </h4>
+
+                </a>
+                <a class="col-lg-3 col-md-6 col-sm-6 caset p-5 stretched-link" href="#">
+
+                    <h4>Urbano</h4>
+
+                </a>
+                <hr>
+                <div class="col-lg-1 col-md-0 col-sm-0">
+
+                </div>
+                <a class="col-lg-3 col-md-6 col-sm-6 caset p-5 stretched-link" href="#">
+
+                    <h4>Pasillo</h4>
+
+                </a>
+                <a class="col-lg-3 col-md-6 col-sm-6 caset p-5 stretched-link" href="#">
+
+                    <h4>Rock </h4>
+
+                </a>
+                <a class="col-lg-3 col-md-6 col-sm-6 caset p-5 stretched-link" href="#">
+
+                    <h4>Pop</h4>
+
+                </a>
+
+                <a class="col-lg-1 col-md-0 col-sm-0">
+
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
