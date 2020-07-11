@@ -141,7 +141,3 @@ header .overlay {
 .nav-link:hover {
     color: var(--color_letra);
 }
-
-ion-icon {
-    color: var(--color_letra);
-}

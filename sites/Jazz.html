@@ -31,22 +31,24 @@
 
 <body>
 
-    <nav class="navbar fixed-top navbar-expand-sm">
-        <div class="container-fluid">
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg ">
+    
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-border-width" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-2zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+          </svg></span>
         </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav m-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a href="../Index.html" class="nav-link d-inline">Inicio</a>
-
-                    </li>
-
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav m-auto">
+            <a class="nav-item nav-link active" href="../Index.html">Inicio </a>
+            <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="#">Pricing</a>
+            <a class="nav-item nav-link disabled" href="#">Disabled</a>
+          </div>
         </div>
-    </nav>
+
+      </nav>
 
     <header id="inicio">
         <div class="overlay"></div>
@@ -72,8 +74,16 @@
             <h1 class="text-left m-5">Canciones:</h1>
         </div>
         <div class="container">
+<div class="row">
+    <div class="col-10">
+        <iframe class="pt-3 px-5"  scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/216069503&color=%2334201a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+    </div>
+    <div class="col-2">
+        <button type="button" class="btn-lg btn-light"><a href="#">Melodia!</a></button>
+    </div>
 
-            <iframe class="pt-3 px-5" width="75%" height="25%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/216069503&color=%2334201a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+</div>
+           
 
         </div>
 

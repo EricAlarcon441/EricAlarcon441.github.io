@@ -113,14 +113,17 @@ header .overlay {
     height: 100vh;
     width: 100%;
 }
+.container{
+    width: 100%;
+}
 
 
 /* Navbar*/
-
 .navbar {
     background-color: var(--navbar);
     opacity: 1;
-    height: 9vh;
+    /*height: 9vh;*/
+    width: 100%;
 }
 
 .nav-link {
@@ -130,7 +133,11 @@ header .overlay {
 .nav-link:hover {
     color: var(--color_letra);
 }
-
-ion-icon {
+.navbar-toggler-icon{
     color: var(--color_letra);
+}
+
+.iframe{
+    height: auto;
+    width: auto;
 }
