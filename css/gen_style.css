@@ -21,13 +21,23 @@
 }
 .p1{
     color: var(--color_letra);
+    font-family: 'Courgette', cursive;
 }
 
+.h5, p{
+    font-family: 'Courgette', cursive;
+}
 
 /*Body*/
 
 body {
-    font-family: 'Chelsea Market', cursive;
+    /*font-family: 'Chelsea Market', cursive;
+*/
+font-family: 'Lobster', cursive;
+}
+
+h2{
+    font-family: 'Courgette', cursive;
 }
 
 div {
