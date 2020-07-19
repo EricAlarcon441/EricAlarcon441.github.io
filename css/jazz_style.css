@@ -11,14 +11,16 @@
 
 /*Genero*/
 
-#jazz {
+#genero {
     background-color: var(--color_letra_generos);
 }
 
-#jazz p,
-h1 {
+#genero h1 {
     color: var(--color_letra);
     margin: 0;
+}
+.p1{
+    color: var(--color_letra);
 }
 
 
@@ -40,23 +42,6 @@ div {
 }
 
 
-/* Regilla generos  */
-
-#generos h1,
-h2,
-h3,
-h4,
-a {
-    color: var(--color_letra_generos);
-}
-
-.caset {
-    background-image: url("../img/cas_genero.png");
-    background-repeat: no-repeat;
-    background-size: 260px 230px;
-    background-color: transparent;
-    background-position: center;
-}
 
 
 /*imagen estatica*/
@@ -110,7 +95,7 @@ header .overlay {
 /*secciones*/
 
 .container-fluid {
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 .container{
@@ -137,7 +122,17 @@ header .overlay {
     color: var(--color_letra);
 }
 
-.iframe{
-    height: auto;
-    width: auto;
+/* boton melodia*/
+.btn-primary{
+    background-color: #ff5500;
+    border-color: transparent;
+}
+.btn-primary:hover{
+    background-color: #ff5500ce;
+    border-color: transparent;
+}
+/*texto carta*/
+
+.card-text{
+    color: var(--color_letra_generos);
 }
