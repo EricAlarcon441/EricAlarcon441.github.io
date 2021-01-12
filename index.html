@@ -1,138 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Música Ecuatoriana</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--fonts-->
-  
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-     <!--icono de pestaña-->
-    
-     <link rel="icon"  type="image/png" href="img/LogoME.png">
-    <!-- Scroll -->
-    <script src="js/smooth-scroll.min.js"></script>
-    <!-- Animacion scroll-->
-    <script>
-        smoothScroll.init({
-            selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
-            selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
-            speed: 1000, // Integer. How fast to complete the scroll in milliseconds
-            easing: 'easeInOutCubic', // Easing pattern to use
-            offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
-            callback: function(anchor, toggle) {} // Function to run after scrolling
-        });
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-
+  <!--stylesheet-->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="styles/styles.css" rel="stylesheet" type="text/css">
+  <link href="styles/custom-responsive-styles.css" rel="stylesheet" type="text/css">
+  <!--scripts-->
+  <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="scripts/all-plugins.js"></script>
+  <script type="text/javascript" src="scripts/plugins-activate.js"></script>
 </head>
 
-<body>
+<body id="page-top">
+  <!-- Navigation -->
+  <div class="logo">
+    <i class="" aria-hidden="true"><span>Chatbot</span></i>
+    <i class="" aria-hidden="true">  <span>Ute</span>  </i>
+      <i class="" aria-hidden="true"><span>Erick Alarcon</span> </i>
+      <iclass="" aria-hidden="true" ><span>Christian Murillo</span> </i>
+      <iclass="" aria-hidden="true"><span>Mateo Navas</span> </i>
+  </div>
 
-    <nav class="navbar navbar-expand-lg fixed-top sticky-top">
-   
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-border-width" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-2zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
-          </svg></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav m-auto">
-            <a class="nav-item nav-link active" href="#">Inicio </a>
-            <a data-scroll class="nav-item nav-link" href="#generos">Géneros</a>
- 
-          </div>
-        </div>
+  <!-- Header Starts -->
+  <section id="Banner" class="content-section">
 
-      </nav> 
+    <iframe src='https://webchat.botframework.com/embed/chatbotute-1-bot?s=b4LcwR_kR08.UDqd_5PgU7YpmN0XvbDFBNf3yGwS0UBnkZiaVhOvDCI'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe>
 
-    <header id="inicio">
-        <div class="overlay"></div>
-        <img src="img/fondo3.jpg" alt="">
-        <div class="container h-100 pt-5 ">
-            <div class="d-flex h-100 text-center align-items-center">
-                <div class="w-100 text-white">
-                    <h1 >Música Ecuatoriana</h1>
-                    <h2 class="mx-5 my-5 mt-5">Bienvenido/a, escucha la música de una variedad de artistas ecuatorianos dando click:</h2>
-                    <button type="button" class="btn-lg btn-light m-3"><a data-scroll href="#generos" class="nav-link d-inline">Aqui!</a></button>
-                </div>
-
-            </div>
-        </div>
-    </header>
-
-    <div class="container-fluid" id="generos">
-        <div class="container">
-            <div class="text-center">
-                <h1>Géneros</h1>
-
-            </div>
-            <div class="row justify-content-right">
-
-
-
-                <a class="col-lg-3 col-md-6 col-sm-6 p-5 caset stretched-link" href="sites/Jazz.html">
-                    <h4>Jazz </h4>
-                </a>
-
-
-
-
-                <a class="col-lg-3 col-md-6 col-sm-6 caset p-5 stretched-link" href="sites/Bomba.html">
-
-                    <h4>Bomba </h4>
-
-                </a>
-                <a class="col-lg-3 col-md-6 col-sm-6 caset p-5 stretched-link" href="sites/Cumbia.html">
-
-                    <h4>Cumbia </h4>
-
-                </a>
-                <a class="col-lg-3 col-md-6 col-sm-6 caset p-5 stretched-link" href="sites/Urbano.html">
-
-                    <h4>Urbano</h4>
-
-                </a>
-                <hr>
-                <div class="col-lg-1 col-md-1 col-sm-1">
-
-                </div>
-                <a class="col-lg-3 col-md-6 col-sm-6 caset p-5 stretched-link" href="sites/Pasillo.html">
-
-                    <h4>Pasillo</h4>
-
-                </a>
-                <a class="col-lg-3 col-md-6 col-sm-6 caset p-5 stretched-link" href="sites/Rock.html">
-
-                    <h4>Rock </h4>
-
-                </a>
-                <a class="col-lg-3 col-md-6 col-sm-6 caset p-5 stretched-link" href="sites/Pop.html">
-
-                    <h4>Pop</h4>
-
-                </a>
-
-                <a class="col-lg-1 col-md-1 col-sm-1">
-
-                </a>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
